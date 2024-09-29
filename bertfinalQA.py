@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import transformers
 from transformers import BertTokenizer, BertForQuestionAnswering, Trainer, TrainingArguments
 import torch
 from datasets import Dataset
